@@ -19,7 +19,8 @@ Class Apartment(Property):
         print("APARTMENT DETAIS")
         print("Laundry: {}".format(self.laundry))
         print("has balcony: {}".format(self.balcony))
-        
+    
+    def prompt_init():
         parent_init = Property.prompt_init()
         # Adding laundry
         laundry = ''
