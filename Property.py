@@ -1,3 +1,15 @@
+"""
+Property Class
+
+**kwargs is for multiple inheritance chain situation
+
+prompt_init method is made into a static method immediately after it is initially created.
+Static method is associated with a class (You can treat it like class variable), rather than
+a specific object instance.
+
+Notice the super keyword won't work on static method because there is no parent object, but a
+parent class.
+"""
 class Property:
     def __init__(self, square_feet='', beds='', baths='', **kwargs):
         super().__init__(**kwargs)
