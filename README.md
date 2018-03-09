@@ -5,3 +5,6 @@ The agent needs to be able to enter a few relevant details about new properties,
 
 ### Type of Properties
 House and apartment
+
+### Python Module Requirements
+* tox
