@@ -2,8 +2,9 @@
 Apartment class
 """
 from .Property import Property
+from .utilities import get_valid_input
 
-Class Apartment(Property):
+class Apartment(Property):
     valid_laundries = {"coin", "ensuite", "none"}
     valid_balconies = {"yes", "no", "solarium"}
     
@@ -16,7 +17,7 @@ Class Apartment(Property):
     def display(self):
         # Make sure display method in Property is properly initialized
         super().display()
-        print("APARTMENT DETAIS")
+        print("APARTMENT DETAILS")
         print("Laundry: {}".format(self.laundry))
         print("has balcony: {}".format(self.balcony))
     
