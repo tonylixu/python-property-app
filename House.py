@@ -10,6 +10,16 @@ class House(Property):
     def __init__(self, num_stories='', garage='', fenced='', **kwargs):
         # Make sure Property class is properly initialized
         super().__init__(**kwargs)
-        self.garage = balcony
-        self.fenced = laundry
+        self.garage = garage
+        self.fenced = fenced
         self.num_stories = num_stories
+
+    def display(self):
+        # Make sure display method in Property is properly initialized
+        super().display()
+        print("HOUSE DETAILS")
+        print("Number of stories: {}".format(self.num_stories))
+        print("Garage: {}".format(self.garage))
+        print("Fenced yard: {}".format(self.fenced))
+    
+    

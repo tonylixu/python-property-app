@@ -16,7 +16,7 @@ class Apartment(Property):
     def display(self):
         # Make sure display method in Property is properly initialized
         super().display()
-        print("APARTMENT DETAIS")
+        print("APARTMENT DETAILS")
         print("Laundry: {}".format(self.laundry))
         print("has balcony: {}".format(self.balcony))
     
