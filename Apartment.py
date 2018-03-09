@@ -3,7 +3,7 @@ Apartment class
 """
 from .Property import Property
 
-Class Apartment(Property):
+class Apartment(Property):
     valid_laundries = {"coin", "ensuite", "none"}
     valid_balconies = {"yes", "no", "solarium"}
     
