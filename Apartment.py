@@ -2,6 +2,7 @@
 Apartment class
 """
 from .Property import Property
+from .utilities import get_valid_input
 
 class Apartment(Property):
     valid_laundries = {"coin", "ensuite", "none"}
