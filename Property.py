@@ -19,7 +19,7 @@ class Property:
     
     def display(self):
         print("PROPERTY DETAILS")
-        print("=" x 12)
+        print("=" * 12)
         print("Square footage: {}".format(self.square_feet))
         print("Bedrooms: {}".format(self.num_bedrooms))
         print("bathrooms: {}".format(self.num_baths))
