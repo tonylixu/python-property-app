@@ -14,12 +14,12 @@ class Property:
     def __init__(self, square_feet='', beds='', baths='', **kwargs):
         super().__init__(**kwargs)
         self.square_feet = square_feet
-        self.beds = beds
+        self.num_bedrooms = beds
         self.num_baths = baths
     
     def display(self):
         print("PROPERTY DETAILS")
-        print("=" x 12)
+        print("=" * 12)
         print("Square footage: {}".format(self.square_feet))
         print("Bedrooms: {}".format(self.num_bedrooms))
         print("bathrooms: {}".format(self.num_baths))
