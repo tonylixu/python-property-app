@@ -8,3 +8,10 @@ House and apartment
 
 ### Python Module Requirements
 * tox
+
+### To Start a Virtual ENV
+```bash
+$ python -m venv property-app-test
+$ source property-app-test/bin/activate
+$ (property-app-test) ➜  python-property-app git:(add-instructions-for-venv)
+```
