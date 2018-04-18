@@ -14,4 +14,6 @@ House and apartment
 $ python -m venv property-app-test
 $ source property-app-test/bin/activate
 $ (property-app-test) ➜  python-property-app git:(add-instructions-for-venv)
+# To deactivate
+$ deactivate
 ```
